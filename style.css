@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navBar{
+    background-color: black;
+    width: auto;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+}
+#navBar ul{
+    margin: 0px;
+    padding: 4px;
+    justify-content: center;
+    display: flex;
+    
+}
+#navBar ul li{
+    list-style: none;
+    margin: 5px 15px;
+    padding: 10px;
+}
+#navBar ul li a{
+   text-decoration: none;
+   color: cornsilk;
+}
+#navBar ul li a:hover{
+   background-color: cornsilk;
+   color: black;
+   margin: 0px;
+   padding: 10px;
+   border-radius: 6px;
+}
+#home{
+    background: center/cover no-repeat url('photo.jpg') ;
+    width: auto;
+    height: 580px;
+    display: flex;
+    justify-content: center;  
+}
+
+#homeH{
+    padding-top: 66px;
+    margin: 0px; 
+}
+#btn{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin:  200px;
+   background-color: black;
+   color: white;
+   border-radius: 6px;
+}
+/* #btn:hover{
+background-color: cornsilk;
+color: black;
+width: 120px;
+height: 30px;
+
+} */
+#about{
+    /* background-color: rgb(54, 53, 53); */
+    height: 500px;
+    color: black;
+    font-weight: 700;
+    background: center/cover no-repeat url('faculty\ \(2\).jpg') ;
+}
+#aboutH{
+    margin: 0px;
+    padding-top:30px;
+    text-align: center;
+}
+#boxes{
+    display:  flex;
+    justify-content: center;
+    margin:  20px auto;
+    padding: 70px 10px;
+    padding-top: 40px;
+    align-items: center;
+}
+.box{
+    /* border: 2px solid rgb(252, 66, 33);
+    border-radius: 15px; */
+    margin: 5px 20px;
+     padding: 20px; 
+    width: 300px;
+    height: 179px;
+}
+.boximg{
+    display: flex;
+    margin: 5px;
+}
+.box p{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+#text{
+    margin: 50px 5px;
+}
+#services{
+    /* background-color: violet; */
+    height: 500px;
+    background: center/cover no-repeat url('service.jpg') ;
+
+}
+#servicesH{
+    margin: 0px;
+    padding-top:40px;
+    text-align: center;
+}
+#serBox{
+    display:  flex; 
+    justify-content: center; 
+    margin:  20px auto;
+    padding: 10px 10px;
+    padding-top: 30px;
+    align-items: center;
+    /* border: 2px solid red;
+    border-radius: 6px; */
+    width: 476px;
+    height: 306px;
+}
+
+#servUl li{
+   padding: 5px; 
+   /* text-align: center; */
+   list-style: square;
+}
+#AdForm{
+    background-color: rosybrown;
+    height: 650px;
+    background: center/cover no-repeat url('contact.jpg') ;
+}
+#conH{
+    margin: 0px;
+    padding-top:40px;
+    text-align: center;
+}
+form{
+    padding : 30px;
+   font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+input{
+width: 600px;
+height: 30px;
+border: 2px solid black;
+border-radius: 6px;
+padding: 5px;
+margin: 5px;
+}
+.class{
+    width: 200px;
+height: 30px;
+border: 2px solid black;
+border-radius: 6px;
+padding: 5px;
+margin: 7px;
+}
+/* #labels{
+    align-items: flex-start;
+} */
+.Check{
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+}
+.com{
+    text-align: center;
+}
+.checkBox{
+    width: 600px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.formBtn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.alert {
+    padding: 18px;
+    background-color: rgb(145, 211, 145); /* Red */
+    color: rgb(29 105 29);
+    border: 2px solid rgb(145, 211, 145);
+    border-radius: 4px;
+    /* margin-bottom: 15px; */
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: rgb(29 105 29);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  .invalid-feedback{
+      color: red;
+      font-size: 15px;
+      font-weight: 300;
+  }
+  .fBox{
+    border: 1px solid red;
+
+  }
+  #alerts{
+    padding-top: 22px;
+    padding-bottom: 1px;
+    margin-top: 60px;
+    height: 56px;
+    position: fixed;
+    width: 98%;
+  }

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to superior Academy</title>
+</head>
+<body>
+   
+      <section id="nav">
+    <nav id="navBar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>     
+            <li><a href="#services">Services</a></li>
+            <li><a href="#AdForm">Admission Form</a></li>
+        </ul>
+    </nav>
+</section>
+
+<div id="alerts" class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <b>Message:</b>  Your Form has been Submitted Successfully!
+  </div>
+
+    <section id="home">
+        <div class="main">
+        <h1 id="homeH">Welcome To superior Academy</h1>
+        <br>
+        <a id="btn" href="#AdForm">Enroll Now</a>
+    </div>
+    </section>
+    <section id="about">
+        <h1 id="aboutH">Our Faculty</h1>
+        <div id="boxes">
+        <div class="box">
+            <div class="boximg">
+                <img src="photo.jpg" alt="" width="40px" height="50px">
+            <p>BIOCHEMIST RAMEEN FATIMA</p>
+        </div>
+            <p id="text">BS Honours in Biochemistry</p>
+        </div>
+        <div class="box">
+            <div class="boximg">
+                <img src="photo.jpg" alt="" width="40px" height="50px">
+            <p>PHYSIOTHERAPIST MEHAK FATIMA</p>
+        </div>
+            <p id="text">BS IN DPT</p>
+        </div>
+        
+        <div class="box">
+            <div class="boximg">
+                <img src="photo.jpg" alt="" width="40px" height="50px">
+            <p>WEB DEVELOPER SEHAR FATIMA</p>
+        </div>
+            <p id="text">BS in Software Engineering</p>
+        </div>
+        </div>
+    </section>
+    <section id="services">
+        <h1 id="servicesH">Our Services</h1>
+        <div id="serBox">
+                <ul id="servUl">
+                    <li>Proper Test session</li>
+                    <li>Qualified Teachers</li>
+                    <li>Full Attention on Every Student</li>
+                    <li>Proper Guidance</li>
+                    <li>full sllybas coverance</li>
+                    <li>Short Computer courses</li>
+                </ul>
+        </div>
+    </section>
+    <section id="AdForm">
+        <h1 id="conH">Fill Form</h1>
+        <form  id= "myForm"action="">
+            
+            <label id="labels" for="name">Name:</label>
+        <input  type="text" id="name" value="" placeholder="Enter Your Full Name">
+        <!-- <div id="valid" class="invalid-feedback">
+            Your Name must atleast contains 3 to 20 characters long and it should be start with a letter
+          </div>  -->
+          
+            <label for="name">Phone No:</label>
+           <input  type="text" id="phone" value="" placeholder="Enter Your Phone No"> 
+           <!-- <div id="valid" class="invalid-feedback">
+            Your phone must contain 11 digits
+          </div>  -->
+           <div class="gr">
+                <label for="class">Class:</label>
+                <select id="clas" class="class">
+                  <option selected>6th</option>
+                  <option>7th</option>
+                  <option>8th</option>
+                  <option>9th</option>
+                  <option>10th</option>
+                  <option>11th</option>
+                  <option>12th</option>
+                </select>
+                <label for="name">City:</label>
+               <input id="city" class="class" type="text"  placeholder="Enter City"> 
+            </div>
+            <div id="checks" class="checkBox">
+                <div class="title">
+                <label for="title">Subjects:</label>
+            </div>
+                <div class="com">
+             <input class="Check" type="checkbox" value="Math">
+             <label for="check">
+                    Math
+                      </label></div>
+                      <div class="com">
+             <input class="Check" type="checkbox"value="English" >
+             <label for="check">
+                    English
+                      </label></div>
+                      <div class="com">
+             <input class="Check" type="checkbox" value="Urdu">
+             <label for="check">
+                    Urdu
+                      </label></div>
+                      <div class="com">
+             <input class="Check" type="checkbox" value="Physics">
+             <label for="check">
+                    Physics
+                      </label></div>
+                      <div class="com">
+             <input class="Check" type="checkbox" value="Chemistry">
+             <label for="check">
+                    Chemistry
+                      </label></div>
+                      <div class="com">
+             <input class="Check" type="checkbox" value="Biology">
+             <label for="check">
+                    Biology
+                      </label> </div>
+                      <div class="com">
+             <input class="Check" type="checkbox" value="Computer">
+             <label for="check">
+                    Computer
+                      </label> </div>
+                      <div class="com">
+             <input class="Check" type="checkbox" value="Islamiat">
+             <label for="check">
+                    Islamiat
+                      </label> </div>
+                      <div class="com">
+             <input class="Check" type="checkbox" value="Pak-Study">
+             <label for="check">
+                    Pak-Study
+                      </label>
+                    </div>
+                    </div>
+                    <div class="btns">
+                    <button id="subBtn" class="formBtn" type="submit" >Submit</button>
+                    
+                    <button class="formBtn" type="reset">Clear</button>
+                </div>
+            </form>
+    </section>
+    <footer>
+        copyright &copy 2020 superiorAcademy.com. All Rights reserved.
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
